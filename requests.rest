@@ -1,0 +1,19 @@
+GET http://localhost:3000/sa
+
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "doneje",
+    "price": 123.12
+}
+
+###
+
+PATCH http://localhost:3000/products/OHYEAH
+
+###
+
+DELETE http://localhost:3000/products/ahahaha

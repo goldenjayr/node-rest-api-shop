@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-shop",
+  "version": "1.0.0",
+  "description": "This is a Rest API Shop Project created using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.13",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.2"
+  }
+}
